@@ -1,23 +1,10 @@
 ## Objectives
-* Create a fully functional CRUD API using knex query builder
+* Deploy node.js + knex + psql apps to Heroku
 
 ## Getting started
 ```
-npm i --save knex pg
-touch knexfile.js
-mkdir db
-mkdir db/seeds
-mkdir db/migrations
-
-// create db in postico
-// update conn string in knexfile.js
-// create migration files
-// create seed files
-
-knex migrate:latest && knex seed:run
+heroku create # create heroku project from the command line
 
 ```
 
 ## Resources
-https://devhints.io/knex
-https://express-validator.github.io/docs/
