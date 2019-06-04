@@ -14,6 +14,8 @@ heroku config:set NODE_ENV=production
 heroku run knex migrate:latest
 heroku run knex seed:run
 
+# POSTMAN environment
+
 ```
 
 ## Resources
