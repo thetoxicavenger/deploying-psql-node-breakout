@@ -20,3 +20,5 @@ heroku run knex seed:run
 
 ## Resources
 https://devcenter.heroku.com/articles/config-vars#accessing-config-var-values-from-code
+
+Deployed: https://thawing-caverns-41262.herokuapp.com/
